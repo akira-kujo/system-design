@@ -14,13 +14,13 @@
 * Slow to react to customer demand 
 * Long release cycles (adding more functionality means checking if other code-bases are impacted)
 
-<img src="/system-design-images/apis-in-monolith.jpg"/>
+<img src="./system-design-images/apis-in-monolith.jpg"/>
 
 * API calls are sent into the Monolith via the API GW / LB
 
 ### Scenario 1: Issue of Scaling
 
-<img src="/system-design-images/scale-monolith.jpg"/>
+<img src="./system-design-images/scale-monolith.jpg"/>
 
 * Increase of API calls will stress the EC2 Instance (increase CPU utilisation)
 * Solution is to scale the entire monolith (increase the instance account)
@@ -29,7 +29,7 @@
 
 ### Scenario 2: APIs in a Microservice
 
-<img src="/system-design-images/scale-microservice.jpg"/>
+<img src=".system-design-images/scale-microservice.jpg"/>
 
 * The API calls function for different VMs (smaller instances = ↓ cost)
   * *Get* API calls ↑, only the VMs configured for that API call ↑
