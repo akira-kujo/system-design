@@ -14,4 +14,4 @@
 * Slow to react to customer demand 
 * Long release cycles (adding more functionality means checking if other code-bases are impacted)
 
-<img src=".apis-in-monolith.jpg" />
+<img src="./apis-in-monolith.jpg"/>
