@@ -29,7 +29,7 @@
 
 ### Scenario 2: APIs in a Microservice
 
-<img src=".system-design-images/scale-microservice.jpg"/>
+<img src="./system-design-images/scale-microservice.jpg"/>
 
 * The API calls function for different VMs (smaller instances = ↓ cost)
   * *Get* API calls ↑, only the VMs configured for that API call ↑
